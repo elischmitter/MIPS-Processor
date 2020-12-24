@@ -25,3 +25,10 @@ module registers(reset, read1, read2, writeData, RegWrite, readData1, readData2)
 		regs[0]=0;
 	end	
 endmodule 
+
+
+
+module registers_testbench;
+	parameter timeDelay = 10;
+	
+endmodule 
