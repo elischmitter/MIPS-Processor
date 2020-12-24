@@ -8,11 +8,11 @@ module ALU (a,
 
 	parameter DATA_WIDTH = 2;
 	
-	input wire[DATA_WIDTH-1:0] a;
-	input wire[DATA_WIDTH-1:0] b;
+	input wire signed [DATA_WIDTH-1:0] a;
+	input wire signed [DATA_WIDTH-1:0] b;
 	input [2:0] opcode;
 	input wire clk;
-	output reg[DATA_WIDTH-1:0]out;
+	output reg signed [DATA_WIDTH-1:0]out;
 	output reg less;	
 	always@ (*)
 	begin
