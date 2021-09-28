@@ -31,7 +31,6 @@ endmodule
 
 module registers_testbench;
 	parameter timeDelay = 10;
-<<<<<<< HEAD
 	reg regWritect;
 	reg resett;
 	reg  [4:0] read1t;
@@ -50,7 +49,4 @@ module registers_testbench;
 		#(timeDelay) writeDatat=32'hf;RegWritet=5'b00100; regWritect=1;
 		#100;
 	 end
-=======
-	
->>>>>>> eb14e9ec3a713c6ba01dc33e090defda42057714
 endmodule 
